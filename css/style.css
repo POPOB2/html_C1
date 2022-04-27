@@ -3,7 +3,6 @@
     font-family: '標楷體';
     /* overflow: hidden; */
 }
-
 /* body .main */
 .main {
     display: flex;
@@ -14,18 +13,15 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-
 /* 畫線border */
+/* .top , .menu , .update ,  .marquee ,.content ,.footer{
+    border: 1px solid lightgray;
+} */
 body>*:not(aside, section),
 aside>*,
 section>* {
     border: 1px solid lightgray;
 }
-
-/* .top , .menu , .update ,  .marquee ,.content ,.footer{
-    border: 1px solid lightgray;
-} */
-
 /* .top */
 .top {
     flex-basis: 1000px;
@@ -93,7 +89,6 @@ section>* {
     flex-basis: calc(1000px - 215px);
     display: flex;
     flex-direction: column;
-    background-color: lightgreen;
 }
 
 .marquee {
@@ -107,12 +102,14 @@ section>* {
 .content {
     flex-basis: calc(100% - 29px);
 }
-
+.content>iframe{
+    width: 100%;
+    height: 100%;
+}
 /* footer */
 .footer {
     flex-basis: 1000px;
     height: 20px;
-    background-color: lightgoldenrodyellow;
     font-family: '標楷體';
     color: #000000;
     text-align: center;
