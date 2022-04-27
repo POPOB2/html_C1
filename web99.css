@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    font-family: '標楷體';
+}
+/* ---------------整體---------------- */
+.main{
+    display: flex;
+    width: 1024px;
+    padding: 0 12px;
+    margin: 10px auto;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* --------------border-------------- */
+body>*:not(aside,section),
+aside>*,
+section>*{
+    border: 1px solid lightgrey;
+}
+/* ---------------頭---------------- */
+.top{
+    flex-basis: 1000px;
+    height: 65px;
+}
+/* ---------------左---------------- */
+.aside{
+    flex-basis: 215px;
+    height: calc(768px - 65px - 20px);
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    flex-basis:calc(100% - 25px);
+}
+.update{
+    flex-basis: 25px;
+}
+/* ---------------右邊---------------- */
+.section{
+    flex-basis: calc(1000px - 215px);
+    display: flex;
+    flex-direction: column;
+}
+.marquee{
+    flex-basis: 29px;
+    padding: 0 calc((100% - 770px - 2px) / 2);
+}
+.content{
+    flex-basis: calc(100% - 29px);
+}
+/* ---------------底層---------------- */
+.footer{
+    flex-basis: 1000px;
+    height: 20px;
+}

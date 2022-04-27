@@ -1,0 +1,49 @@
+2022.4.27 html
+
+模糊需求>定義
+PM 分配工作區塊
+XMind  . cadiis 網站架構圖
+
+一時太多問題  紀錄問題  完成項目  幫助思考
+
+user story
+----------------------------------------------
+flex-basis 主軸長度 row=寬 column=直
+direction 設定主軸 row column
+----------------------------------------------
+*flex box 需求
+1.container 容器
+2.itmes 物件
+----------------------------------------------
+*container 容器內可用的屬性
+
+.display: 宣告外框(容器)
+
+.flex-direction: 設定主軸(row / column)
+
+.flex-wrap:wrap 換行(若container值1000 / item值300 顯示最多3個,
+若超過三個items,未設定wrap會縮小wrap的大小硬塞進一個container)
+
+(flex-direction + flex-wrap的縮寫)
+.flex-flow: *例:flex-flow:row wrap;
+
+.justify-content:位置分配 內容的物件
+
+.align-itmes:
+----------------------------------------------
+*items 物件
+
+.order:
+
+.flex-grwow:
+
+.flex-shrink:
+
+.flex-basis:
+
+.flex:
+
+.align-self:
+----------------------------------------------
+overflow:hidden 內容大於格子時,隱藏格子之外的內容
+
