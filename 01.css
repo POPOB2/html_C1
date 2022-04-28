@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    font-family: '標楷體';
+}
+.main{
+    display: flex;
+    width: 1024px;
+    padding: 0 12px;
+    margin: 10px auto;
+    justify-content: center;
+    
+}
+body>*:not(aside,section),
+aside>*,
+section>*{
+    border: 1px solid lightgray;
+}
