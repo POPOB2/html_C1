@@ -22,6 +22,9 @@ aside>*,
 section>* {
     border: 1px solid lightgray;
 }
+.top,.menu.update.marquee.content.footer{
+    border: 1px solid lightgray;
+}
 /* .top */
 .top {
     flex-basis: 1000px;
